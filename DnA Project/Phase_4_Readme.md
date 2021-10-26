@@ -17,7 +17,7 @@ c. Update Functions
 
 d. Other Miscellanous Helper Functions
 
-#### Insert Functions
+### Insert Functions
 1.  insert_scp - This function is required to add a row of data to the entity SCP
 2.  insert_site - This function is required to add a row of data to the entity SITE
 3.  insert_airbase - This function is required to add a row of data to the entity AIRBASE
@@ -60,3 +60,7 @@ d. Other Miscellanous Helper Functions
   7. update_mtf - Update the MTF data (only the coomanding officer)
   8. update_scp - Updates only the Object Class and Special Containment Procedures
   9. update_site - Updates the site number, site capacity and staff size
+
+
+### Link to the video -
+```https://iiitaphyd-my.sharepoint.com/:v:/g/personal/shubhankar_k_research_iiit_ac_in/EUCdfiQbTutFsqPJc_e_bg8BeGLVaGr7aICZMNBhUYhBHA?e=4Xdv61```
