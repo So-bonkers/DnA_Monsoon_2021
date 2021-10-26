@@ -1,7 +1,7 @@
-## Data and Applications
+# Data and Applications
 ### Monsoon 2021
 --- 
-### Project Phase - 4 (CLI Coding)
+## Project Phase - 4 (CLI Coding)
 
 ### Part A
   ```Contains the SQL commands to create the table in 3NF and the latter part of the code contains all the foreign keys according to the corresponding relationships```
@@ -46,4 +46,17 @@ d. Other Miscellanous Helper Functions
 
 ### Miscellanous Functions 
 1. dispatch - Helper function to map to other functions
-2. make_queries - ALL :)
+2. make_queries - allows for execution of vanilla SQL queries as is 🙂
+
+## Queries in the video 
+  - Since the first 15 queries are only insert statements included for ease of access and creation of the table, we only cover 2 insertion queries
+  - We've chosen this query such that it properly displays all the intgerity and referential integrity contraints of the database
+  1. insert_relationship - This functions is required to insert a relationship value
+  2. insert_conv_inv - This functions is required to add a row of data to the entity Containment Involvement
+  3. scp_by_item - Selecting SCP by its item number
+  4. num_of_scp -  Number of SCP counts by counting the number of columns of the primary key
+  5. years_in_containment - Gives the number of years in containment
+  6. aggregate_avg - Average number of SCPs per SITE
+  7. update_mtf - Update the MTF data (only the coomanding officer)
+  8. update_scp - Updates only the Object Class and Special Containment Procedures
+  9. update_site - Updates the site number, site capacity and staff size
